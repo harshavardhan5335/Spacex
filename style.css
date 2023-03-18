@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(elon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+.menubar{
+    background-color:  rgba(100, 3, 3, 0);
+    text-align: center;
+
+}
+.menubar ul {
+    font-weight:bold;
+    display: inline-flex;
+    list-style: none;
+    color: rgba(255, 0, 0, 0);
+}
+
+.menubar ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menubar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.active,.menubar ul li :hover{
+    display: block;
+    background-color: rgb(107, 52, 52);
+    border-radius: 3px;
+}
+.spacex{
+        
+    width: 300px ;
+}
